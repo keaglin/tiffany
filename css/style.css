@@ -31,6 +31,9 @@ h6 {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
 }
 
 .block-1 {
@@ -43,9 +46,9 @@ h6 {
   grid-row-start: span 2;
 }
 
- .block-16 {
+.block-16 {
   grid-column-start: span 2;
-  grid-row-start: span 2; 
+  grid-row-start: span 2;
 }
 
 .block-21 {
@@ -59,7 +62,9 @@ main {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 header {
@@ -72,11 +77,15 @@ footer {
 
 .item {
   margin: 0;
-  /* padding-bottom: calc(100% / 2.5); */
+  padding-bottom: calc(100% / 50);
 }
 
 .item img {
-  object-fit: contain;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .overlay {
