@@ -9,6 +9,7 @@ html {
   box-sizing: inherit;
   border: solid 1px black;
   margin: inherit;
+  color: black;
 }
 
 h1,
@@ -26,14 +27,21 @@ h6 {
 } */
 
 .grid-container {
-  min-width: 100%;
+  /* min-width: 100%; */
   /* margin: 0; */
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
+  /* grid-template-rows: auto 1fr auto; */
+  /* grid-template-columns: 100%; */
+}
+
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  /* margin: 0 175px; */
+  padding: 20px 15px;
 }
 
 .block-1 {
@@ -56,16 +64,18 @@ h6 {
   grid-row-start: span 3;
 }
 
-main {
-  /* max-width: inherit; */
+/* .block-31 {
+  grid-column: span 2;
+} */
+
+/* main {
+  max-width: inherit;
   margin: 10px 50px 20px;
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(5, 1fr);
-  /* grid-template-rows: repeat(5, 1fr); */
-  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
-  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-}
+  grid-template-rows: repeat(10, 1fr);
+} */
 
 header {
   min-width: inherit;
@@ -75,9 +85,19 @@ footer {
   min-width: inherit;
 }
 
-.item {
+/* .item {
   margin: 0;
-  padding-bottom: calc(100% / 50);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  overflow: hidden;
+  padding-bottom: calc(100% / 2.5);
+} */
+
+.item {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  margin: 0;
 }
 
 .item img {
@@ -86,6 +106,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin: 0;
 }
 
 .overlay {
@@ -145,3 +166,9 @@ footer {
   color: black;
   border: 0;
 }
+
+/* 
+  want to introduce media queries that start breaking at x px
+  break at every 2nd column, 
+  if it's wider than 2 columns, span it across the screen
+*/

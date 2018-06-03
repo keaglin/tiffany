@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // get photos
 // need a function that will call the unsplash API to get a list of photos
 // save the list to a const array
@@ -8,6 +9,18 @@
 // fetch(`https://source.unsplash.com/weekly?${kw}`)
 // .then(res => addImage(res))
 // }
+=======
+const gallery = document.querySelector('.gallery');
+const overlay = document.querySelector('.overlay');
+const overlayImage = overlay.querySelector('img');
+const overlayClose = overlay.querySelector('.close');
+
+function handleClick(e) {
+  const src = e.currentTarget.querySelector('img').src;
+  overlayImage.src = src;
+  overlay.classList.add('open');
+}
+>>>>>>> 31669ca81f1845a46617c49796b28edb343be8a7
 
 // function imgSrc(kw) {
 //   fetch(`https://source.unsplash.com/weekly?${kw}`)
@@ -61,4 +74,8 @@ function init() {
   // addImage("rug");
 }
 
+<<<<<<< HEAD
 init();
+=======
+overlayClose.addEventListener('click', close);
+>>>>>>> 31669ca81f1845a46617c49796b28edb343be8a7
