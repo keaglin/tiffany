@@ -74,9 +74,9 @@ init();
 // // //
 
 // const gallery = document.querySelector(".gallery");
-const overlay = document.querySelector(".overlay");
-const overlayImage = overlay.querySelector("img");
-const overlayClose = overlay.querySelector(".close");
+// const overlay = document.querySelector(".overlay");
+// const overlayImage = overlay.querySelector("img");
+// const overlayClose = overlay.querySelector(".close");
 
 // function handleClick(e) {
 
@@ -85,8 +85,8 @@ const overlayClose = overlay.querySelector(".close");
 // overlay.classList.add('open');
 // }
 
-function close() {
-  overlay.classList.remove("open");
-}
+// function close() {
+//   overlay.classList.remove("open");
+// }
 
-overlayClose.addEventListener("click", close);
+// overlayClose.addEventListener("click", close);
