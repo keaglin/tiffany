@@ -7,9 +7,9 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   margin: inherit;
-  color: black;
+  /* color: black; */
 }
 
 h1,
