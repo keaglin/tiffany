@@ -1,3 +1,5 @@
+/* Overall */
+
 html {
   box-sizing: border-box;
   margin: 0;
@@ -33,6 +35,8 @@ h6 {
   /* grid-template-rows: auto 1fr auto; */
   /* grid-template-columns: 100%; */
 }
+
+/* Gallery */
 
 .gallery {
   min-width: 100%;
@@ -170,6 +174,8 @@ main {
   border: 0;
 }
 
+/* Media Queries */
+
 /* 
   want to introduce media queries that start breaking at x px
   break at every 2nd column, 
@@ -187,6 +193,7 @@ main {
     grid-auto-rows: 200px;
   }
 }
+
 @media (max-width: 1000px) {
   .gallery {
     /* display: grid; */

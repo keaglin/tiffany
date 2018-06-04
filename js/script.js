@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-  let elems = document.querySelectorAll('.sidenav');
+document.addEventListener("DOMContentLoaded", function() {
+  let elems = document.querySelectorAll(".sidenav");
   let instances = M.Sidenav.init(elems);
 });
 
@@ -50,7 +50,10 @@ function addImage() {
 // on click, go to product page
 
 function showMini(e) {
-  e.target.style.background = "purple";
+  // e.target.style.background = "purple";
+  const src = e.currentTarget.querySelector("img").src;
+  // overlayImage.src = src;
+  // overlay.classList.add("open");
   console.log("event listener working for", e.target);
 }
 
@@ -62,8 +65,28 @@ function addHoverListener() {
 }
 
 function init() {
-  addHoverListener();
+  // addHoverListener();
   // addImage("rug");
 }
 
 init();
+
+// // //
+
+// const gallery = document.querySelector(".gallery");
+const overlay = document.querySelector(".overlay");
+const overlayImage = overlay.querySelector("img");
+const overlayClose = overlay.querySelector(".close");
+
+// function handleClick(e) {
+
+// const src = e.currentTarget.querySelector('img').src;
+// overlayImage.src = src;
+// overlay.classList.add('open');
+// }
+
+function close() {
+  overlay.classList.remove("open");
+}
+
+overlayClose.addEventListener("click", close);
