@@ -54,15 +54,15 @@ function showMini(e) {
   const src = e.currentTarget.querySelector("img").src;
   // overlayImage.src = src;
   // overlay.classList.add("open");
-  console.log("event listener working for", e.target);
+  // console.log("event listener working for", e.target);
 }
 
-function addHoverListener() {
-  const items = document.querySelectorAll(".item");
-  items.forEach(item => {
-    item.addEventListener("mouseenter", showMini);
-  });
-}
+// // function addHoverListener() {
+// //   const items = document.querySelectorAll(".item");
+// //   items.forEach(item => {
+// //     item.addEventListener("mouseenter", showMini);
+// //   });
+// // }
 
 function init() {
   // addHoverListener();

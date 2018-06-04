@@ -116,6 +116,8 @@ main {
   margin: 0;
 }
 
+/* Overlay */
+
 .overlay {
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
@@ -144,7 +146,7 @@ main {
 }
 
 .item__overlay {
-  background: #ffc60032;
+  background: #0c552b32;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
   position: relative;
@@ -160,7 +162,7 @@ main {
   border: 2px solid white;
   color: white;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(34, 18, 18, 0.7);
   padding: 5px;
 }
 
@@ -224,6 +226,14 @@ main {
   }
   .brand-logo {
     font-size: 18px !important;
+  }
+  .overlay__content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: .1rem;
+    font-size: .84rem;
+    color: white;
   }
   /* .top {
     grid-template-areas:
