@@ -82,6 +82,18 @@ h6 {
   grid-template-rows: repeat(10, 1fr);
 } */
 
+
+/* Video */
+
+#video {
+  /* justify-content: flex-start; */
+  display: grid;
+  justify-items: flex-start;
+  /* align-items: flex-start; */
+  overflow: hidden;
+  
+}
+
 header,
 footer,
 main {
