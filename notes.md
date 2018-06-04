@@ -4,3 +4,4 @@ Issues/Needs Work
   - Materialize has text color white even when it should be black (according to the docs and visibility)
 
   - need to adjust text positioning and sizes based on media queries
+  - remove black bars from the video

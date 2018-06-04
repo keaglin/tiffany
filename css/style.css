@@ -46,6 +46,8 @@ main {
 .block-1 {
   grid-row-start: span 2;
   grid-column-start: span 4;
+  align-self: stretch;
+  justify-self: stretch;
 }
 
 .block-12 {
@@ -61,6 +63,12 @@ main {
 .block-21 {
   grid-column-start: span 2;
   grid-row-start: span 3;
+}
+
+header,
+footer,
+main {
+  min-width: inherit;
 }
 
 .item {
@@ -145,6 +153,40 @@ main {
   background: none;
   color: black;
   border: 0;
+}
+
+/* Video */
+
+video {
+  min-width: 100%;
+  min-height: inherit;
+  /* object-fit: unset; */
+  z-index: 0;
+  /* justify-content: flex-start; */
+  /* display: grid; */
+  /* justify-items: flex-start; */
+  /* align-items: flex-start; */
+  /* overflow: hidden; */
+  
+}
+
+.video-container {
+  /* position: absolute; */
+  /* width: 100%; */
+  min-height: 100% !important;
+  /* overflow: hidden; */
+  /* max-width: 100%; */
+  /* object-fit: contain; */
+}
+
+ /* .video-container  */
+.video-overlay {
+  position: relative;
+  width: 100%;
+  height:100%;
+  background:#000;
+  opacity:0.5;
+  z-index:999;
 }
 
 /* Media Queries */
