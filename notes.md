@@ -5,3 +5,4 @@ Issues/Needs Work
 
   - need to adjust text positioning and sizes based on media queries
   - remove black bars from the video
+  - make note of all the weird breakpoints so you can add media queries; to ensure a consistent experience
