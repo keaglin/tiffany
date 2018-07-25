@@ -10,4 +10,4 @@ Issues/Needs Work
 Carousel - https://mobirise.com/bootstrap-carousel/autoplay-carousel-feature.html
 Dropdown Menu - https://codepen.io/dustlilac/pen/Qwpxbp
 Embiggen Image on Scroll - http://johnpolacek.github.io/imagefill.js/ + scroll event
-Button Styles - https://tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/
+Button Styles - https://tympanus.net/Development/CreativeButtons/
