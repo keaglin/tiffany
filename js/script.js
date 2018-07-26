@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
   let elems = document.querySelectorAll(".sidenav");
   let instances = M.Sidenav.init(elems);
+  const dropdown = document.querySelector(".dropdown-trigger")
+  dropdown.dropdown();
+  
 });
+
 
 // get photos
 // need a function that will call the unsplash API to get a list of photos

@@ -25,20 +25,61 @@ header,
 footer,
 main {
   min-width: inherit;
+  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .grid-container {
   display: grid;
 }
 
+/* Header */
+
 .gold_bar {
-  /* background-image: url("gold bar.png");
-  position: absolute; */
-  background-color: #f2dba5;
+  background-image: url("../img/gold bar.png");
+  /* position: absolute; */
+  /* background-color: #f2dba5; */
   left: 0px;
   top: -1px;
-  min-height: 39px;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 39px;
   z-index: 26;
+  margin-bottom: 0 !important;
+}
+
+#social {
+  height: 100%;
+  width: 100%;  
+}
+
+/* #customerStuff {
+  height: 100%;
+  width: 100%;  
+} */
+
+.dropdown-content{
+  width: max-content !important;
+  height:auto !important;
+}
+
+svg.svg-inline--fa {
+  /* display: block; */
+  line-height: 100%;
+  min-height: 100%;
+}
+
+nav {
+  box-shadow: none;
+  background: none !important;
+}
+
+nav ul a {
+  color: black !important;
+}
+
+.callnow {
+  line-height: 64px;
 }
 
 /* Gallery */
