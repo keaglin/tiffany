@@ -32,12 +32,12 @@ main {
 }
 
 .gold_bar {
-  background-image: url("gold bar.png");
-  position: absolute;
+  /* background-image: url("gold bar.png");
+  position: absolute; */
+  background-color: #f2dba5;
   left: 0px;
   top: -1px;
-  width: 1894px;
-  height: 39px;
+  min-height: 39px;
   z-index: 26;
 }
 
