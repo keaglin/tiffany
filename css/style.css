@@ -94,6 +94,11 @@ nav ul a {
   line-height: 64px;
 }
 
+.drop-menu-text {
+  color: black !important;
+  margin: 0 !important;
+}
+
 /* Gallery */
 
 .gallery {
