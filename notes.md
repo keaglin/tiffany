@@ -24,8 +24,9 @@ Framework To Do:
 - Font Size:
   - Menu:
     - Section Header: Raleway Light Sharp 24.42 pt
+    - Call us: 25.03 pt
   - Header: Raleway Light Sharp 30.97 pt
-  - 25.03 pt
+  - 
 - Colors: 
   
   .gold_bar {
