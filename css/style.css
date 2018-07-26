@@ -43,9 +43,15 @@ main {
   top: -1px;
   min-width: 100%;
   min-height: 100%;
-  max-height: 39px;
+  line-height: 40px;
+  /* max-height: 39px; */
   z-index: 26;
   margin-bottom: 0 !important;
+}
+
+label {
+  height: inherit !important;
+  line-height: inherit !important;
 }
 
 #social {
@@ -58,6 +64,15 @@ main {
   width: 100%;  
 } */
 
+/* #search {
+  margin: 0;
+} */
+
+nav.search {
+  margin: 0;
+  max-height: 36px !important; 
+}
+
 .dropdown-content{
   width: max-content !important;
   height:auto !important;
@@ -67,6 +82,7 @@ svg.svg-inline--fa {
   /* display: block; */
   line-height: 100%;
   min-height: 100%;
+  padding-left: 5px;
 }
 
 nav {
@@ -81,6 +97,10 @@ nav ul a {
 .callnow {
   line-height: 64px;
 }
+
+/* .nav-wrapper > .input-field {
+  margin: 0 !important;
+} */
 
 /* Gallery */
 
