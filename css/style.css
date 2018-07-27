@@ -47,18 +47,21 @@ main {
   /* max-height: 39px; */
   z-index: 26;
   margin-bottom: 0 !important;
+  display: inline-block !important;
 }
 
 .search {
   border-bottom: none !important;
 }
 
-.search:focus {
+/* [] Fix focus color underline */
+
+/* .search:focus {
   border-bottom: none !important;
   -webkit-box-shadow: 0 1px 0 0 #ffe39f;
   -moz-box-shadow: 0 1px 0 0 #ffe39f;
   box-shadow: 0 1px 0 0 #ffe39f;
-}
+} */
 
 .searchBtn{
   background-color: #ffe39f;
