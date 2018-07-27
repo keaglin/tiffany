@@ -49,8 +49,15 @@ main {
   margin-bottom: 0 !important;
 }
 
-#search {
+.search {
+  border-bottom: none !important;
+}
+
+textarea:focus {
   border-bottom: none;
+  /* -webkit-box-shadow: 0 1px 0 0 #03a9f4;
+  -moz-box-shadow: 0 1px 0 0 #03a9f4;
+  box-shadow: 0 1px 0 0 #03a9f4; */
 }
 
 .rug_banner {
