@@ -53,11 +53,17 @@ main {
   border-bottom: none !important;
 }
 
-textarea:focus {
-  border-bottom: none;
-  /* -webkit-box-shadow: 0 1px 0 0 #03a9f4;
-  -moz-box-shadow: 0 1px 0 0 #03a9f4;
-  box-shadow: 0 1px 0 0 #03a9f4; */
+.search:focus {
+  border-bottom: none !important;
+  -webkit-box-shadow: 0 1px 0 0 #ffe39f;
+  -moz-box-shadow: 0 1px 0 0 #ffe39f;
+  box-shadow: 0 1px 0 0 #ffe39f;
+}
+
+.searchBtn{
+  background-color: #ffe39f;
+  border-color: #ffe39f;
+
 }
 
 .rug_banner {
