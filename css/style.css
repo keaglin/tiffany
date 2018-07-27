@@ -49,6 +49,10 @@ main {
   margin-bottom: 0 !important;
 }
 
+#search {
+  border-bottom: none;
+}
+
 .rug_banner {
   background-image: url("../img/Header\ -\ mid.png");
   width: 100% !important;
