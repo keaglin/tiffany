@@ -49,6 +49,13 @@ main {
   margin-bottom: 0 !important;
 }
 
+.rug_banner {
+  background-image: url("../img/Header\ -\ mid.png");
+  width: 100% !important;
+  margin: auto !important;
+
+}
+
 label {
   height: inherit !important;
   line-height: inherit !important;
