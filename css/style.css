@@ -60,7 +60,7 @@ main {
   box-shadow: 0 1px 0 0 #ffe39f;
 }
 
-.searchBtn{
+.searchBtn {
   background-color: #ffe39f;
   border-color: #ffe39f;
 
@@ -94,9 +94,9 @@ nav.search {
   max-height: 36px !important; 
 }
 
-.dropdown-content{
+.dropdown-content {
   width: max-content !important;
-  height:auto !important;
+  height: auto !important;
 }
 
 svg.svg-inline--fa {
