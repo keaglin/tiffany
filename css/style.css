@@ -229,6 +229,19 @@ main {
   transform: translateY(0);
 }
 
+/* Footer */
+
+  /* Contact Us Section */
+
+.contact_us {
+    background-image: url("../img/Layer 39 copy 2.png");
+    position: absolute;
+    left: 0px;
+    top: 2377px;
+    width: 1894px;
+    height: 956px;
+    z-index: 3;
+}  
 
 /* Media Queries */
 
