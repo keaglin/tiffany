@@ -31,13 +31,12 @@ Framework To Do:
       - 'A World Of Inspiration For Your Home': 30.97 pt
     - 
 - Colors: 
-  
-  .gold_bar {
-  background-image: url("gold bar.png");
-  position: absolute;
-  left: 0px;
-  top: -1px;
-  width: 1894px;
-  height: 39px;
-  z-index: 26;
-}
+
+
+
+Photoshop Exporting  
+  1. Duplicate desired layers
+  2. Merge, group or put them in a folder by themselves
+  3. Right click on newly merged layer, group or folder
+  4. Export as...
+  5. Bada bing bada boom
