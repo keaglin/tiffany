@@ -9,42 +9,43 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
-  <script
-    defer
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   <script defer src="js/script.js"></script>
   <title>Blank Framework</title>
 </head>
 
 <body>
   <header>
+
+    <!-- NEW -->
+
     <div class="gold_bar row">
-      <div class="col m6">
+      <div class="col m12">
       </div>
-      <div class="col m6">
-        <div class="col m6">
+      <!-- First Div -->
+      <div class="col m12">
+        <!-- Search Div -->     
+        <div class="col m6 push-m6">
           <nav class="search">
             <div class="nav-wrapper">
               <form>
-                <div class="input-field">
+                <div class="input-field col m4 pull-m3">
                   <input id="search" type="search" placeholder="What are you looking for?" required>
                   <label class="label-icon" for="search"><i class="fas fa-search"></i></label>
                   <i class="fas fa-times fa-sm"></i>
                 </div>
-                <input type="submit" value="search" class="btn">
+                <input type="submit" value="SEARCH" class="searchBtn col m1 pull-m3">
               </form>
             </div>
           </nav>
         </div>
-        <div class="col m3">Social</div>
+        <!-- Social Links Div -->  
+        <div class="col m4 pull-m8" id="social"><img src="img/facebook.png" alt="Facebook"></div>
+        <!-- Customer Div -->  
         <div class="col m3">Customer stuff</div>
       </div>
     </div>
-    <div class="row banner">
+    <div class="row">
       <!-- Logo and name go in this div -->
       <div class="col s8">Logo</div>
       <div class="col s4">A World of Inspiration for Your Home</div>
@@ -90,48 +91,53 @@
         <div>Call me now!</div>
       </div>
     </div>
-    <!-- Bootstrap style -->
-    <!-- <nav class="navbar navbar-default" role="navigation">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brand</a>
+
+
+    <!-- OLD -->
+    
+    <div class="gold_bar row">
+      <div class="col m7">
+      <div class="search col m12 push-m8">
+        <div class="col m8">
+          <form>
+            <div class="col m5">
+              <input type="text" class="search" placeholder="What are you looking for?" name="search">
+            </div>
+            <div class="col m1">
+              <button class="searchBtn">SEARCH</button>
+            </div>
+          </form>     
+        </div>
+        </div>
+        <div class="col m6 pull-m8" id="social">
+          <img src="img/facebook.png" alt="Facebook">
+        </div>
+        <div class="col m2" id="customerStuff">
+          <img src="img/Profile.png" alt="Profile">
+          <img src="img/ShoppingCart.png" alt="ShoppingCart">
+        </div>
       </div>
-      <!/.navbar-header -->
-      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Two Column <b class="caret"></b></a>
-            <ul class="dropdown-menu multi-column columns-2">
-              <div class="row">
-                <div class="col-sm-6">
-                  <ul class="multi-column-dropdown">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here that's extra long so we can see how it looks</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </div>
-      <!/.navbar-collapse-->
-    <!-- </nav> -->
-    <!--/.navbar-->
+    </div>
+
+    <div class="row"> 
+      <div class="rug_banner col m12"> 
+        <div class="col m6 offset-s4">
+          <img src="img/banner.png" alt="Rug Middle">
+        </div>
+        
+    </div>  
+    </div>
+    
   </header>
   <main>
   </main>
   <footer>
+
+    <div class="contact_us">
+
+    </div>
+
+
   </footer>
 </body>
 
