@@ -33,6 +33,12 @@ main {
   display: grid;
 }
 
+body {
+  background-image: ("../img/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Header */
 
 .gold_bar {
