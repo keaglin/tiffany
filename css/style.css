@@ -150,16 +150,31 @@ nav ul a {
 
 /* footer {
   background-color: black !important;
-  background-image: url("../img/banner.png");
+  background-image: url("../img/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
 } */
 
-.footer {
-  background-color: black !important;
-  background-image: url("../img/banner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.footer_background {
+  /* display: grid; */
+  height: 1106px;
+  width: 100%;  
+
+  background-image: url("../img/footer.png") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  display: inline-block !important;
+
+  /* .Layer_39_copy_2 {
+    background-image: url("Layer 39 copy 2.png");
+    position: absolute;
+    left: 0px;
+    top: 2377px;
+    width: 1894px;
+    height: 956px;
+    z-index: 3;
+  }
+   */
 }
 
   /* Contact Us Section */
