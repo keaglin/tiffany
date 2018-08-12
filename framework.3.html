@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <script
+    defer
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous">
+  </script>
+  <script defer src="js/script.js"></script>
+  <title>Blank Framework</title>
+</head>
+
+<body>
+  <header>
+    <div class="gold_bar row">
+      <div class="col m6">
+      </div>
+      <div class="col m6">
+        <div class="col m6">
+          <nav class="search">
+            <div class="nav-wrapper">
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" placeholder="What are you looking for?" required>
+                  <label class="label-icon" for="search"><i class="fas fa-search"></i></label>
+                  <i class="fas fa-times fa-sm"></i>
+                </div>
+                <input type="submit" value="search" class="btn">
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="col m3">Social</div>
+        <div class="col m3">Customer stuff</div>
+      </div>
+    </div>
+    <div class="row banner">
+      <!-- Logo and name go in this div -->
+      <div class="col s8">
+        <div class="left valign-wrapper">
+          <img src="./img/website-logo-textmark.png" alt="Rug of Nations logo textmark" class="logo">
+        </div>
+      </div>
+      <div class="col s4">A World of Inspiration for Your Home</div>
+    </div>
+    <div class="row">
+      <div class="col s8">
+        <!-- Dropdown Structure -->
+        <div id="dropdown1" class="dropdown-content row">
+          <div class="col s12">
+            <div class="drop-menu-text center">Dropdown</div>
+          </div>
+          <div class="divider"></div>
+          <div class="col s12 m6">
+            <ul>
+              <li><a href="#!">two</a></li>
+              <li><a href="#!">three</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <ul>
+              <li><a href="#!">four</a></li>
+              <li><a href="#!">five</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav>
+          <div class="nav-wrapper">
+            <!-- <a href="#!" class="brand-logo">Logo</a> -->
+            <ul class="left hide-on-med-and-down">
+              <li><a href="#">Shop by Collection</a></li>
+              <li><a href="#">Shop by Size</a></li>
+              <li><a href="#">Shop by Color</a></li>
+              <li><a href="#">Shop by Shape</a></li>
+              <li><a href="#">Our Services</a></li>
+              <!-- Dropdown Trigger -->
+              <li><a class="dropdown-trigger valign-wrapper" href="#!" data-target="dropdown1">Dropdown 
+                <i class="fas fa-angle-down fa-lg right"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col s4 valign-wrapper callnow">
+        <div>Call me now!</div>
+      </div>
+    </div>
+    <!-- Bootstrap style -->
+    <!-- <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+      </div>
+      <!/.navbar-header -->
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Two Column <b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-2">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here that's extra long so we can see how it looks</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </div>
+      <!/.navbar-collapse-->
+    <!-- </nav> -->
+    <!--/.navbar-->
+  </header>
+  <main>
+  </main>
+  <footer>
+    <div class="footer_background"></div>
+  </footer>
+</body>
+
+</html>
