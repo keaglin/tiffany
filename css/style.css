@@ -29,10 +29,6 @@ main {
   font-family: 'Raleway', sans-serif;
 }
 
-main {
-  min-height: 100vh;
-}
-
 .grid-container {
   display: grid;
 }
@@ -44,14 +40,6 @@ body {
 }
 
 /* Header */
-
-.logo {
-  max-height: 10rem;
-  /* background-image: url('../img/website-logo-textmark.png');
-  background-size: cover;
-  background-repeat: no-repeat; */
-
-}
 
 .gold_bar {
   background-image: url("../img/gold bar.png");
@@ -93,6 +81,7 @@ body {
   background-image: url("../img/Header\ -\ mid.png");
   width: 100% !important;
   margin: auto !important;
+
 }
 
 label {
@@ -213,6 +202,12 @@ nav ul a {
 .block-21 {
   grid-column-start: span 2;
   grid-row-start: span 3;
+}
+
+header,
+footer,
+main {
+  min-width: inherit;
 }
 
 .item {
