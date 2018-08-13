@@ -159,112 +159,27 @@ nav ul a {
 
 /* Footer */
 
-/* footer {
-  /* background-color: black !important; 
+.footer_background {
+  /* min-width: 100%; */
+  min-height: 1106px;
+  /* background-color: black !important;  */
   background-image: url("../img/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 100%;
-} */
+  /* margin-bottom: -20px; */
+}
 
-.footer_background {
-  /* display: grid; */
-  /* height: 1106px;
-  width: 100%; */
-  /* width: 1894px;
-  height: 3384px; */
- 
- /* Creates a horizontal push to the right */
-  width: 100%;
-  height: 100%;
-  /*  */
-  
-  /* .footer {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1894px;
-  height: 3384px;
-  z-index: 11;
-}
-.Layer_41 {
-  background-image: url("Layer 41.png");
-  position: absolute;
-  left: 0px;
-  top: 3332px;
-  width: 1894px;
-  height: 121px;
-  z-index: 8;
-}
-.Layer_40 {
-  background-image: url("Layer 40.png");
-  opacity: 0.651;
-  position: absolute;
-  left: 0px;
-  top: 2278px;
-  width: 1099px;
-  height: 1055px;
-  z-index: 7;
-}
-.Layer_39_copy {
-  background-image: url("Layer 39 copy.png");
-  opacity: 0.361;
-  position: absolute;
-  left: 0px;
-  top: 2377px;
-  width: 1099px;
-  height: 956px;
-  z-index: 6;
-}
-.Layer_39 {
-  background-image: url("Layer 39.png");
-  position: absolute;
-  left: 0px;
-  top: 2377px;
-  width: 1099px;
-  height: 956px;
-  z-index: 5;
-}
-.Layer_39_copy_2 {
-  background-image: url("Layer 39 copy 2.png");
+/* Contact Us Section */
+
+/* .contact_us {
+  background-image: url("../img/Layer 39 copy 2.png");
   position: absolute;
   left: 0px;
   top: 2377px;
   width: 1894px;
   height: 956px;
   z-index: 3;
-}
- */
-
-  background-image: url("../img/footer.png") !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  /* display: inline-block !important; */
-
-  /* .Layer_39_copy_2 {
-    background-image: url("Layer 39 copy 2.png");
-    position: absolute;
-    left: 0px;
-    top: 2377px;
-    width: 1894px;
-    height: 956px;
-    z-index: 3;
-  }
-   */
-}
-
-  /* Contact Us Section */
-
-  /* .contact_us {
-    background-image: url("../img/Layer 39 copy 2.png");
-    position: absolute;
-    left: 0px;
-    top: 2377px;
-    width: 1894px;
-    height: 956px;
-    z-index: 3;
-  }   */
+}   */
 
 /* Gallery */
 
