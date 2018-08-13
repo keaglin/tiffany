@@ -29,10 +29,6 @@ main {
   font-family: 'Raleway', sans-serif;
 }
 
-main {
-  min-height: 100vh;
-}
-
 .grid-container {
   display: grid;
 }
@@ -44,14 +40,6 @@ body {
 }
 
 /* Header */
-
-.logo {
-  max-height: 10rem;
-  /* background-image: url('../img/website-logo-textmark.png');
-  background-size: cover;
-  background-repeat: no-repeat; */
-
-}
 
 .gold_bar {
   background-image: url("../img/gold bar.png");
@@ -93,6 +81,7 @@ body {
   background-image: url("../img/Header\ -\ mid.png");
   width: 100% !important;
   margin: auto !important;
+
 }
 
 label {
@@ -160,97 +149,24 @@ nav ul a {
 /* Footer */
 
 /* footer {
-  /* background-color: black !important; 
+  background-color: black !important;
   background-image: url("../img/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 100%;
 } */
 
 .footer_background {
   /* display: grid; */
   /* height: 1106px;
-<<<<<<< HEAD
   width: 100%;   */
   /* width: 1894px;
   height: 3384px; */
-  /* width: 1894px;
-  height: 956px; */
-  width: 1099px;
-  height: 956px;
-=======
-  width: 100%; */
-  /* width: 1894px;
-  height: 3384px; */
- 
- /* Creates a horizontal push to the right */
-  width: 100%;
-  height: 100%;
-  /*  */
-  
-  /* .footer {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1894px;
-  height: 3384px;
-  z-index: 11;
-}
-.Layer_41 {
-  background-image: url("Layer 41.png");
-  position: absolute;
-  left: 0px;
-  top: 3332px;
-  width: 1894px;
-  height: 121px;
-  z-index: 8;
-}
-.Layer_40 {
-  background-image: url("Layer 40.png");
-  opacity: 0.651;
-  position: absolute;
-  left: 0px;
-  top: 2278px;
-  width: 1099px;
-  height: 1055px;
-  z-index: 7;
-}
-.Layer_39_copy {
-  background-image: url("Layer 39 copy.png");
-  opacity: 0.361;
-  position: absolute;
-  left: 0px;
-  top: 2377px;
-  width: 1099px;
-  height: 956px;
-  z-index: 6;
-}
-.Layer_39 {
-  background-image: url("Layer 39.png");
-  position: absolute;
-  left: 0px;
-  top: 2377px;
-  width: 1099px;
-  height: 956px;
-  z-index: 5;
-}
-.Layer_39_copy_2 {
-  background-image: url("Layer 39 copy 2.png");
-  position: absolute;
-  left: 0px;
-  top: 2377px;
   width: 1894px;
   height: 956px;
-  z-index: 3;
-}
- */
-
->>>>>>> 90105c0d868240afe1122d73e828c97a7718bfd0
   background-image: url("../img/footer.png") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  /* display: inline-block !important; */
+  display: inline-block !important;
 
   /* .Layer_39_copy_2 {
     background-image: url("Layer 39 copy 2.png");
@@ -308,6 +224,12 @@ nav ul a {
 .block-21 {
   grid-column-start: span 2;
   grid-row-start: span 3;
+}
+
+header,
+footer,
+main {
+  min-width: inherit;
 }
 
 .item {
