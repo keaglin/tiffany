@@ -157,9 +157,14 @@ nav ul a {
 
 .footer_background {
   /* display: grid; */
-  height: 1106px;
-  width: 100%;  
-
+  /* height: 1106px;
+  width: 100%;   */
+  /* width: 1894px;
+  height: 3384px; */
+  /* width: 1894px;
+  height: 956px; */
+  width: 1099px;
+  height: 956px;
   background-image: url("../img/footer.png") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
