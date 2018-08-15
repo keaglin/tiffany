@@ -168,7 +168,7 @@ nav ul a {
 
 .footer_background {
   min-width: 100%;
-  /* min-height: 1106px; */
+  min-height: 1106px;
   /* background-color: black !important;  */
   background-image: url("../img/footer.png");
   background-size: cover;
