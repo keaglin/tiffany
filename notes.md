@@ -40,3 +40,5 @@ Photoshop Exporting
   3. Right click on newly merged layer, group or folder
   4. Export as...
   5. Bada bing bada boom
+
+  Download images from RoaN to get Marcus' (so far) results
