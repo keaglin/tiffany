@@ -161,6 +161,8 @@ nav ul a {
 
 .callnow {
   line-height: 64px;
+  margin: 0;
+  /* text-align: right; */
 }
 
 
